@@ -1,0 +1,266 @@
+body {
+  background-color: #faf6ed;
+  margin: 0;
+}
+/* entete */
+header {
+  background-color: #2e5e4e;
+  height: 90px;
+}
+.imglogo {
+  width: 60px;
+  border-radius: 25px;
+  margin-top: 0px;
+}
+
+nav {
+  margin-left: 600px;
+  padding-bottom: 50px;
+}
+nav a {
+  color: #ffffff;
+  margin: 40px;
+}
+/* bouton */
+.btn1 {
+  background-color: #2e5e4e;
+  color: #ffffff;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: 3px solid #b68c58;
+  cursor: pointer;
+}
+.btn1 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn1:hover {
+  background-color: #b68c58;
+  color: #2e5e4e;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: 3px solid #2e5e4e;
+  cursor: pointer;
+}
+/* texte h1 */
+.zuu {
+  text-align: center;
+}
+.h1j2kp {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #2e5e4e;
+}
+/* image principale */
+.contenaire {
+  background-color: #faf6ed;
+  width: 90%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 6px 8px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 40px;
+}
+.imageprincipale {
+  width: 90%;
+  height: 350px;
+  margin: 60px;
+  border-radius: 20px;
+}
+.imageprincipale:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+/* footer */
+footer {
+  text-align: center;
+  background-color: #2e5e4e;
+  height: 90px;
+  color: #ffffff;
+}
+/* css pour les produits */
+.h1produits {
+  color: #2e5e4e;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.ctn-prd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.img1 {
+  width: 210px;
+  height: 200px;
+  border-radius: 20px;
+}
+.img1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.ctn1 {
+  padding: 30px;
+  background-color: #ffffff;
+  width: 210px;
+  border-radius: 20px;
+  box-shadow: 2px 6px 8px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+.btnprod {
+  background-color: #2e5e4e;
+  color: #ffffff;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: 3px solid #b68c58;
+  cursor: pointer;
+}
+
+.btnprod:hover {
+  background-color: #b68c58;
+  color: #2e5e4e;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: 3px solid #2e5e4e;
+  cursor: pointer;
+}
+/* galerie css */
+video {
+  width: 210px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.ctn1 {
+  padding: 30px;
+  background-color: #ffffff;
+  width: 210px;
+  border-radius: 20px;
+  box-shadow: 2px 6px 8px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+/* contact css */
+.h1contact {
+  color: #2e5e4e;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.p {
+  color: #2e5e4e;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+strong {
+  color: #000000;
+}
+input {
+  width: 320px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #faf6ed;
+  color: #000000;
+}
+form {
+  text-align: center;
+}
+select {
+  width: 320px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #faf6ed;
+  color: #000000;
+}
+textarea {
+  width: 320px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #faf6ed;
+  color: #000000;
+}
+.send {
+  background-color: #2e5e4e;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 90px;
+}
+.send:hover {
+  background-color: #ffffff;
+  color: #2e5e4e;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 90px;
+  border: 1px solid #2e5e4e;
+}
+/* responsive */
+/* Mobile first */
+@media (max-width: 768px) {
+  /* Header */
+  header {
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    margin-left: 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  /* Conteneur principal */
+  .contenaire {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+  /* Produits */
+  .ctn-prd {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ctn1 {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .imageprincipale {
+    width: 95%;
+    height: auto;
+    margin: 20px ;
+  }
+
+  /* Formulaire */
+  input, select, textarea {
+    width: 90%;
+  }
+}
